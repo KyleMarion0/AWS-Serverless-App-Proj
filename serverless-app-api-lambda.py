@@ -1,7 +1,6 @@
 import boto3, json, os, decimal
 
-# Replace with your state machine ARN
-SM_ARN = 'YOUR_STATEMACHINE_ARN_REPLACE_ME'
+SM_ARN = 'EXAMPLE_ARN'
 
 sm = boto3.client('stepfunctions')
 
